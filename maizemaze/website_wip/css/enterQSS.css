@@ -1,0 +1,11 @@
+label {
+      margin: 8px 5px 8px 0px;
+}
+
+input {
+      margin: 8px 20px 8px 0px;
+}
+
+fieldset input {
+	 width:70%;
+}
