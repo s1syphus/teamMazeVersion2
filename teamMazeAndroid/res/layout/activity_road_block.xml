@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent" 
+	android:layout_height="match_parent"
+    tools:context=".RoadBlock" >
+    
+    <ImageView 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:src="@drawable/roadblock_bg" 
+		android:scaleType="fitXY" />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        
+	    <TextView
+	        android:id="@+id/question"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:paddingBottom="20dp"
+	        android:paddingLeft="20dp"
+	        android:paddingRight="20dp"
+	        android:paddingTop="20dp"
+	        android:text="@string/question_here"
+	        android:textSize="30sp" />
+    
+	    <Button
+	        android:id="@+id/ans1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:onClick="checkButton"
+	        android:text="@string/choice_one"
+	        android:textSize="20sp" />
+	    
+	    <Button
+	        android:id="@+id/ans2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:onClick="checkButton"
+	        android:text="@string/choice_two"
+	        android:textSize="20sp" />
+	    
+	    <Button
+	        android:id="@+id/ans3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:onClick="checkButton"
+	        android:text="@string/choice_three"
+	        android:textSize="20sp" />
+	    
+	    <Button
+	        android:id="@+id/ans4"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:onClick="checkButton"
+	        android:text="@string/choice_four"
+	        android:textSize="20sp" />
+
+</LinearLayout>
+</FrameLayout>

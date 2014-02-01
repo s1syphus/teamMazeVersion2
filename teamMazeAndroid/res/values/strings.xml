@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maize Maze</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="team_maize">Team Maize</string>
+    
+    <string name="up">UP</string>
+    <string name="down">DOWN</string>
+    <string name="left">LEFT</string>
+    <string name="right">RIGHT</string>
+    <string name="up_button_des">Up Button</string>
+    <string name="down_button_des">Down Button</string>
+    <string name="left_button_des">Left Button</string>
+    <string name="right_button_des">Right Button</string>
+    
+    <string name="title_activity_maze">MazeActivity</string>
+    <string name="title_activity_road_block">RoadBlock</string>
+    
+    <string name="subjectSpinner">Subject</string>
+    <string name="levelSpinner">Level</string>
+    
+    <string name="subjectHint">Choose a subject for questions.</string>
+    <string name="levelHint">Choose a level of question difficulty.</string>
+    
+    <string name="instructionTitle">Instructions</string>
+    <string name="instructions">Test your knowledge and solve the maze!:</string>
+    
+    <string name="playerInstr">This maize colored player icon represents your place in the maze. Use the directional buttons to move it.</string>
+    <string name="pathWallInstr">You will be able to move through the light blue path spaces pictured left. Dark blue wall spaces cannot be crossed.</string>
+    <string name="startGoalInstr">When the game starts, your player icon will occupy the yellow start space. You must navigate to the green goal space.</string>
+    <string name="roadblockInstr">Red labeled spaces are roadblocks; crossing them triggers a question. Answer correctly to mark the roadblock as clear and move on.</string>
+    <string name="sendoff">Select your preferred question subject and difficulty level in the menus below and press Start to begin. Note that mazes and questions are randomly generated every time the program starts, so you\'ll always have a different experience. Good luck!</string>
+    
+    <string-array name="subjectsArray">
+        <!-- This list should be dynamically populated at some
+        	point in the future -Mike -->
+        <item>All</item>
+        <item>Math</item>
+        <item>Science</item>
+        <item>Social Studies</item>
+        <item>English</item>
+        <item>Pop Culture</item>
+    </string-array>
+    
+    
+    
+    <string name="choice_one">Choice One</string>
+    <string name="choice_two">Choice Two</string>
+    <string name="choice_three">Choice Three</string>
+    <string name="choice_four">Choice Four</string>
+    <string name="question_here">Question Here</string>
+    <string name="roadblock_test">RB Test</string>
+    <string name="title_activity_maze_gui">MazeGUI</string>
+    <string name="close">Close</string>
+    <color name="Michigan_Blue">#1b335c</color>
+    <color name="Michigan_Maize">#e9c017</color>
+	<color name="white">#ffffff</color>
+	
+</resources>

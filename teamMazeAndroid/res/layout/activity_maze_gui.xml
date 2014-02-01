@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MazeGUI">
+    
+<FrameLayout  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+    
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scaleType="fitXY"
+    android:src="@drawable/primary_bg" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout  
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:paddingTop="15dp"
+		android:orientation="horizontal">
+		
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp" 
+            android:layout_gravity="left"
+            android:layout_weight=".10"/>
+
+	    <GridLayout
+	        android:id="@+id/mazeImage"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@color/Michigan_Blue"
+	        android:padding="3dp">
+	    </GridLayout>
+	    
+	    <View
+            android:layout_width="0dp"
+            android:layout_height="0dp" 
+            android:layout_gravity="right"
+            android:layout_weight=".10"/>
+	    
+	</LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" 
+        android:layout_gravity="bottom">
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp" 
+            android:layout_gravity="left"
+            android:layout_weight=".30"/>
+        
+        <Button
+            android:id="@+id/upButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".30"
+            android:contentDescription="@string/up_button_des"
+            android:text="@string/up" />
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="right"
+            android:layout_weight=".30"/>
+        
+        </LinearLayout>    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" 
+        android:layout_marginTop="15dip"
+        android:layout_gravity="bottom">
+        
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight=".30"
+            android:contentDescription="@string/left_button_des"
+            android:text="@string/left" />
+        
+        <Button
+            android:id="@+id/downButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".30"
+            android:contentDescription="@string/down_button_des"
+            android:text="@string/down" />
+        
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight=".30"
+            android:contentDescription="@string/right_button_des"
+            android:text="@string/right" />
+        
+        </LinearLayout>
+            
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" 
+        android:layout_gravity="bottom">
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="left"
+            android:layout_weight=".30"/>
+        
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".30"
+            android:text="@string/close"
+            android:onClick = "closeActivity" />
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="right"
+            android:layout_weight=".30"/>
+        
+        </LinearLayout>
+
+</LinearLayout>
+</FrameLayout>
+</ScrollView>
